@@ -14,6 +14,8 @@ This was particularly challenging in several ways:
  - Then the other proble is how to process the spectograms, and for that I've decided to treat them as images.
   But that is not all also as a sequence. Thus my data consist on a sequence of 6 images.
  - Data proportions arroud only 10% are signals the other 90% are not. Thus that is my baseline. If I always predict 0 I would get a 90% accuracy.
+ - Data can be found here ```kaggle competitions download -c seti-breakthrough-listen```
+  Or here for manual download ```https://www.kaggle.com/competitions/seti-breakthrough-listen/data```
  
  Reflexions:
   I did not get a good result, but at the same time I do not think the approach was all wrong.
